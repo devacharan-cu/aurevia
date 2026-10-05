@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+.claude/
+
+# Local environment, secrets and tooling state
+.env
+.env.*
+.dev.vars
+.wrangler/
+*.pem
+*.local
+.vscode/
+.idea/

@@ -1,0 +1,37 @@
+{
+  "slug": "personal-physician",
+  "order": 1,
+  "title": "Personal Physician",
+  "need": "I'd like a doctor who already knows me",
+  "summary": "An annual membership with one named physician: appointments within a working day, a full hour when you need it, and a direct line that isn't a call centre.",
+  "intro": "Most of medicine is ordinary: a cough that lingers, a result that needs explaining, a prescription, a worry that is probably nothing. What makes it go well is a doctor who already knows your history. Membership gives you one, alongside a small team who cover when they are away and who read the same notes.",
+  "image": "consult-talking",
+  "image_alt": "A man in his sixties mid-sentence, describing something, lit by a tall window",
+  "for_whom": [
+    "People who want continuity rather than a different doctor each visit",
+    "Families who would like one practice to hold everyone's records",
+    "Anyone managing a long-term condition who wants it overseen, not just repeated"
+  ],
+  "includes": [
+    { "title": "A named physician", "detail": "Chosen with you after your first appointment. They lead your care, and specialists report back to them." },
+    { "title": "Appointments within one working day", "detail": "Thirty minutes as standard; sixty when the problem needs it. In person or by video." },
+    { "title": "A direct line", "detail": "Your coordinator's number and email. Messages are answered the same working day." },
+    { "title": "Prescriptions and referrals", "detail": "Issued promptly, with a letter that explains the reasoning, not just a form." },
+    { "title": "An annual review", "detail": "A structured hour each year to look back and plan ahead, with bloods taken beforehand." }
+  ],
+  "process": [
+    { "step": "Introductory appointment", "duration": "60 minutes", "detail": "Your history, medications, family background, and what you want from a physician." },
+    { "step": "Records", "duration": "2–3 weeks", "detail": "With your consent we request your records, so nothing starts from scratch. You keep your NHS GP." },
+    { "step": "Ongoing care", "duration": "As needed", "detail": "See your physician or, when they are away, a colleague who has read your notes first." }
+  ],
+  "fees": [
+    { "item": "Individual membership", "fee": "£1,950 a year", "note": "Appointments included. Tests and medicines are quoted before they are arranged." },
+    { "item": "Couple or family membership", "fee": "From £3,400 a year", "note": "Two adults and their children under 18." },
+    { "item": "Single appointment, non-member", "fee": "£185", "note": "30 minutes, in person or by video." }
+  ],
+  "faqs": [
+    { "q": "Do I still need an NHS GP?", "a": "We recommend keeping one. With your permission we copy letters to your NHS GP so both records stay complete, and some long-term prescriptions are simpler to continue there." },
+    { "q": "Is membership covered by insurance?", "a": "Usually not. Most private medical insurance covers specialist and diagnostic care after a referral, not primary care. We'll tell you plainly what is likely to be covered before you commit." },
+    { "q": "What happens when my physician is away?", "a": "Each physician's list is covered by one of two named colleagues. They read your notes before seeing you, and your physician picks up where they left off." }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "images": [
+    {
+      "file": "leaf-shadow",
+      "photographer": "Nik Bagherzadegan",
+      "source": "https://unsplash.com/photos/shadows-of-leaves-and-branches-on-a-textured-wall-ScbjQ88xFMw",
+      "color": "#262626",
+      "ratio": 1.777
+    },
+    {
+      "file": "travertine",
+      "photographer": "Colin Watts",
+      "source": "https://unsplash.com/photos/square-beige-and-brown-textured-wall-tiles-with-grout-y8q16Yzlufc",
+      "color": "#c0c0a6",
+      "ratio": 1.3333
+    },
+    {
+      "file": "oak-slats",
+      "photographer": "Declan Sun",
+      "source": "https://unsplash.com/photos/a-lamp-hanging-from-the-side-of-a-wall-iuYIDIss1Mc",
+      "color": "#735940",
+      "ratio": 1.5
+    },
+    {
+      "file": "window-table",
+      "photographer": "Don Kaveen",
+      "source": "https://unsplash.com/photos/brown-wooden-table-with-chairs-DsH3VOZanYA",
+      "color": "#f3f3f3",
+      "ratio": 1.7778
+    },
+    {
+      "file": "reception",
+      "photographer": "Maverick Frame",
+      "source": "https://unsplash.com/photos/minimalist-interior-featuring-a-wooden-desk-plant-and-window-VRoK8MxTlHY",
+      "color": "#8c8c73",
+      "ratio": 1.65
+    },
+    {
+      "file": "lounge",
+      "photographer": "Clay Banks",
+      "source": "https://unsplash.com/photos/modern-living-room-with-large-windows-overlooking-garden-BOYGjCdPx9o",
+      "color": "#a6a68c",
+      "ratio": 1.4998
+    },
+    {
+      "file": "striped-chair",
+      "photographer": "Linus Belanger",
+      "source": "https://unsplash.com/photos/a-yellow-chair-sitting-in-front-of-a-window-OPUEuIwr0C8",
+      "color": "#26260c",
+      "ratio": 1.3658
+    },
+    {
+      "file": "window-shadow",
+      "photographer": "Sou Jest",
+      "source": "https://unsplash.com/photos/geometric-sunlight-patterns-illuminate-a-wooden-floor-and-furniture-leg-Rg3lyeixy5o",
+      "color": "#f3f3d9",
+      "ratio": 1.5
+    },
+    {
+      "file": "couple-hike",
+      "photographer": "Miguel Santamaria",
+      "source": "https://unsplash.com/photos/a-man-and-a-woman-walking-down-a-trail-S6gl-35qL94",
+      "color": "#f3d9c0",
+      "ratio": 1.5
+    },
+    {
+      "file": "commuter",
+      "photographer": "Furkan Elveren",
+      "source": "https://unsplash.com/photos/a-woman-sitting-on-a-bench-reading-a-newspaper-UkpvVJ3cyTM",
+      "color": "#f3f3f3",
+      "ratio": 1.779
+    },
+    {
+      "file": "garden-door",
+      "photographer": "Yunshuo Qu",
+      "source": "https://unsplash.com/photos/arched-doorway-opens-to-a-sunlit-balcony-with-greenery-CjT1sX6SQUQ",
+      "color": "#26260c",
+      "ratio": 0.7273,
+      "alt_hint": "Arched doorway opens to a sunlit balcony with greenery"
+    },
+    {
+      "file": "open-window",
+      "photographer": "eduard",
+      "source": "https://unsplash.com/photos/potted-plant-on-window-with-curtain-Q4PvX80itZ0",
+      "color": "#8c8c8c",
+      "ratio": 1.5,
+      "alt_hint": "potted plant on window with curtain"
+    },
+    {
+      "file": "plane-window",
+      "photographer": "Lex Sirikiat",
+      "source": "https://unsplash.com/photos/plane-window-id6FDNBf0M0",
+      "color": "#260c0c",
+      "ratio": 1.4998,
+      "alt_hint": "plane window"
+    },
+    {
+      "file": "window-supper",
+      "photographer": "Lawrence Chismorie",
+      "source": "https://unsplash.com/photos/a-table-with-a-candle-and-a-plate-on-it-t0TMPTQKsCg",
+      "color": "#262626",
+      "ratio": 1.4914,
+      "alt_hint": "a table with a candle and a plate on it"
+    },
+    {
+      "file": "consult-talking",
+      "photographer": "The Ridge Ohio",
+      "source": "https://unsplash.com/photos/an-older-man-with-glasses-illuminated-by-bright-sunlight-wQx3Gn6WrYk",
+      "color": "#262626",
+      "ratio": 1.5,
+      "alt_hint": "An older man with glasses illuminated by bright sunlight",
+      "focus": "60% 40%"
+    },
+    {
+      "file": "consult-hands",
+      "photographer": "The Ridge Ohio",
+      "source": "https://unsplash.com/photos/persons-hands-with-a-watch-bright-lens-flare-cQzUbJIx7qE",
+      "color": "#262626",
+      "ratio": 1.5,
+      "alt_hint": "Person's hands with a watch, bright lens flare"
+    },
+    {
+      "file": "consult-listening",
+      "photographer": "The Ridge Ohio",
+      "source": "https://unsplash.com/photos/woman-on-a-couch-with-bright-window-light-hw3uo11m0dY",
+      "color": "#262626",
+      "ratio": 1.5,
+      "alt_hint": "Woman on a couch with bright window light",
+      "focus": "35% 40%"
+    },
+    {
+      "file": "pressure-cuff",
+      "photographer": "Julia Taubitz",
+      "source": "https://unsplash.com/photos/a-person-with-a-blood-pressure-device-in-their-hand-vN5s_G5SPkY",
+      "color": "#d9d9c0",
+      "ratio": 1.5,
+      "alt_hint": "A person with a blood pressure device in their hand",
+      "focus": "50% 55%"
+    },
+    {
+      "file": "ecg-trace",
+      "photographer": "Stephen Andrews",
+      "source": "https://unsplash.com/photos/text-kHAqo7qXoJw",
+      "color": "#d9d9d9",
+      "ratio": 2.0787,
+      "alt_hint": "text"
+    },
+    {
+      "file": "consult-room",
+      "photographer": "Maximilian Bungart",
+      "source": "https://unsplash.com/photos/two-chairs-and-a-table-with-sunlight-streaming-in-EClL92YshcE",
+      "color": "#8c7359",
+      "ratio": 1.4917,
+      "alt_hint": "Two chairs and a table with sunlight streaming in"
+    },
+    {
+      "file": "wrist-heart",
+      "photographer": "Luismi Sánchez",
+      "source": "https://unsplash.com/photos/person-wearing-black-and-silver-ring-mmfs0e7wtiQ",
+      "color": "#0c2626",
+      "ratio": 1.3333,
+      "alt_hint": "person wearing black and silver ring",
+      "focus": "22% 55%"
+    },
+    {
+      "file": "morning-bed",
+      "photographer": "MChe Lee",
+      "source": "https://unsplash.com/photos/rumpled-white-bed-in-sunlit-bedroom--Fe_er8ZTuU",
+      "color": "#8c8c8c",
+      "ratio": 1.5,
+      "alt_hint": "A rumpled white bed with pillows beside a wooden nightstand in a sunlit room"
+    },
+    {
+      "file": "woman-window",
+      "photographer": "Samuell Morgenstern",
+      "source": "https://unsplash.com/photos/a-woman-looks-out-a-window-lost-in-thought-H7D0UhmMbZc",
+      "color": "#c0c0c0",
+      "ratio": 0.6667,
+      "alt_hint": "A woman looks out a window, lost in thought",
+      "focus": "55% 38%"
+    },
+    {
+      "file": "written-report",
+      "photographer": "Joonas Sild",
+      "source": "https://unsplash.com/photos/a-piece-of-paper-sitting-on-top-of-a-wooden-table-ZO-SqSjIgxM",
+      "color": "#a67340",
+      "ratio": 1.5001,
+      "alt_hint": "a piece of paper sitting on top of a wooden table",
+      "focus": "55% 45%"
+    }
+  ]
+}

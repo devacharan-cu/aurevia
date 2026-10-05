@@ -1,0 +1,39 @@
+{
+  "slug": "health-assessments",
+  "order": 2,
+  "title": "Health Assessments",
+  "need": "I want a thorough, honest picture of my health",
+  "summary": "A physician-led morning built around your history rather than a fixed checklist, followed by a written report and a second conversation three months later.",
+  "intro": "A good assessment is not the largest possible set of tests. It is the right tests for your age, family history and concerns, interpreted by a doctor who has spent time with you. We leave out investigations that tend to find harmless abnormalities and lead to more tests, and we explain why.",
+  "image": "pressure-cuff",
+  "image_alt": "Blood pressure being taken by hand with a cuff and dial",
+  "for_whom": [
+    "Adults over 35 who haven't had a thorough review in several years",
+    "People with a family history of heart disease, diabetes or certain cancers",
+    "Anyone who wants a baseline before a change: a new role, a training goal, a decade birthday"
+  ],
+  "includes": [
+    { "title": "An hour with a physician", "detail": "History, examination, and a conversation about what is actually on your mind, before any tests are chosen." },
+    { "title": "Blood and urine tests", "detail": "Chosen for you. Typically a cholesterol profile, HbA1c, kidney and liver function, full blood count, thyroid and ferritin, with others where your history suggests them." },
+    { "title": "Heart and circulation", "detail": "A resting ECG, and blood pressure measured properly: seated, repeated and, where needed, over 24 hours at home." },
+    { "title": "Strength and fitness", "detail": "Grip strength, a simple walking or step test, and a frank conversation about activity you would genuinely keep up." },
+    { "title": "Screening, where evidence supports it", "detail": "Cervical, bowel or skin checks according to age and risk, and a clear explanation of the screening we would not recommend for you." },
+    { "title": "A written report", "detail": "In plain English within five working days: each result explained, and a short list of priorities." }
+  ],
+  "process": [
+    { "step": "Pre-assessment call", "duration": "20 minutes", "detail": "A coordinator takes your history in outline and confirms any fasting instructions." },
+    { "step": "Assessment morning", "duration": "3–4 hours", "detail": "Arrive at 8:30. Bloods first, then breakfast in the garden room, then your physician and the remaining tests." },
+    { "step": "Results appointment", "duration": "45 minutes", "detail": "Within a week, in person or by video, with your report in hand." },
+    { "step": "Three-month review", "duration": "30 minutes", "detail": "What changed, what didn't, and what comes next." }
+  ],
+  "fees": [
+    { "item": "Essential Assessment", "fee": "£1,450", "note": "Ages 18–39. Physician-led, around three hours." },
+    { "item": "Comprehensive Assessment", "fee": "£2,250", "note": "Ages 40 and over. Adds cardiac and body-composition tests." },
+    { "item": "Imaging, if indicated", "fee": "Quoted individually", "note": "Only when your history or results point to it." }
+  ],
+  "faqs": [
+    { "q": "Will you include a whole-body scan?", "a": "Not routinely. In people without symptoms, whole-body scanning often finds incidental abnormalities that prove harmless but lead to further tests and worry. If your history suggests a specific scan is worthwhile, we will recommend it and explain why." },
+    { "q": "Do I need to fast?", "a": "Usually for eight to ten hours beforehand; water is fine. Your coordinator confirms this for your particular tests." },
+    { "q": "Can my partner come on the same day?", "a": "Yes. Couples often book the same morning with different physicians, and share breakfast in between." }
+  ]
+}

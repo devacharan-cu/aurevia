@@ -1,0 +1,34 @@
+{
+  "slug": "amara-okafor",
+  "order": 4,
+  "name": "Dr Amara Okafor",
+  "initials": "AO",
+  "role": "Consultant Endocrinologist",
+  "discipline": "Hormones and metabolism",
+  "tone": "sage",
+  "care": [
+    "specialist-consultations",
+    "womens-health",
+    "health-assessments"
+  ],
+  "room": "Ground floor, Room 4",
+  "days": "Mon, Thu",
+  "languages": [
+    "English",
+    "Yoruba"
+  ],
+  "focus": [
+    "Thyroid disorders",
+    "Prediabetes and type 2 diabetes",
+    "Weight and metabolic health",
+    "PCOS, jointly with gynaecology"
+  ],
+  "quote": "A thyroid result is a number. Whether it explains how someone feels is a separate question, and usually the more important one.",
+  "bio": [
+    "Amara's clinic is where results go when they don't quite add up: a borderline thyroid test in someone who feels exhausted, an HbA1c creeping upwards, a weight that has changed without an obvious reason. She is careful not to over-read a single number, and equally careful not to dismiss a symptom because the number is normal.",
+    "She runs a joint clinic with Dr Fenwick for polycystic ovary syndrome, where the gynaecological and metabolic sides of the condition are best seen together."
+  ],
+  "background": "Diabetes and endocrinology training, with a particular interest in metabolic health in midlife.",
+  "fictional": true,
+  "portrait": ""
+}

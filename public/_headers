@@ -1,0 +1,28 @@
+# Cloudflare Pages headers
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' https://api.web3forms.com; form-action 'self' https://api.web3forms.com; frame-ancestors 'self'; base-uri 'self'
+
+# Pages joins a header set by two matching rules, and browsers enforce every CSP they
+# receive, so the site-wide policy is detached here before the CMS policy replaces it.
+/admin/*
+  ! Content-Security-Policy
+  Content-Security-Policy: default-src 'self' https:; img-src 'self' data: blob: https:; style-src 'self' 'unsafe-inline' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com; connect-src 'self' https:; frame-src https:
+  X-Robots-Tag: noindex
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+# main.css / main.js are requested with a build-version query string.
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Page modules are imported by stable URLs, so they revalidate (cheap with ETags).
+/js/*
+  Cache-Control: public, max-age=0, must-revalidate

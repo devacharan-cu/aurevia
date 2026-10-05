@@ -1,0 +1,34 @@
+{
+  "slug": "rahul-menon",
+  "order": 6,
+  "name": "Dr Rahul Menon",
+  "initials": "RM",
+  "role": "Consultant Gastroenterologist",
+  "discipline": "Gut",
+  "tone": "stone",
+  "care": [
+    "specialist-consultations",
+    "diagnostics"
+  ],
+  "room": "Ground floor, Room 6",
+  "days": "Tue, Thu",
+  "languages": [
+    "English",
+    "Malayalam",
+    "Hindi"
+  ],
+  "focus": [
+    "Reflux and indigestion",
+    "Irritable bowel syndrome",
+    "Coeliac disease",
+    "Endoscopy and bowel screening decisions"
+  ],
+  "quote": "The scope confirms. The history usually points. I'd rather spend the time on the history.",
+  "bio": [
+    "Rahul sees the long tail of digestive symptoms that are common enough to be shrugged off and persistent enough to spoil a life: reflux that returns whenever medication stops, a bowel habit that changed last year, bloating that follows a pattern nobody has asked about.",
+    "He performs endoscopy at a partner hospital and will tell you frankly when one is needed and when it isn't. His clinic letters are known among colleagues for their diagrams."
+  ],
+  "background": "Gastroenterology and hepatology training, with an interest in functional gut disorders.",
+  "fictional": true,
+  "portrait": ""
+}

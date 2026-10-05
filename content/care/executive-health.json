@@ -1,0 +1,35 @@
+{
+  "slug": "executive-health",
+  "order": 6,
+  "title": "Executive Health",
+  "need": "I'm responsible for the health of a team",
+  "summary": "Assessments, a named physician and confidential specialist access for leadership teams, founders and family offices, with individual results that never reach the employer.",
+  "intro": "Organisations come to us for two reasons: to look after people whose work is demanding and irregular, and to do it with the discretion those people would expect for themselves. We agree the programme with the organisation. Everything clinical stays between each person and their doctor.",
+  "image": "commuter",
+  "image_alt": "A woman reading a newspaper in a train carriage, window light across the seats",
+  "for_whom": [
+    "Leadership teams and partners",
+    "Founders and family offices",
+    "People who travel constantly or are relocating internationally"
+  ],
+  "includes": [
+    { "title": "Annual assessments", "detail": "The Comprehensive Assessment, scheduled around travel and board calendars." },
+    { "title": "Physician access", "detail": "A named physician and a direct line for each member, with appointments within one working day." },
+    { "title": "Travel medicine", "detail": "Vaccinations, malaria advice and a doctor's letter for medicines carried abroad." },
+    { "title": "Anonymised reporting", "detail": "Organisations see attendance and aggregated themes, never an individual's results." }
+  ],
+  "process": [
+    { "step": "Scoping conversation", "duration": "45 minutes", "detail": "Who is covered, and what they actually need." },
+    { "step": "Proposal", "duration": "Within a week", "detail": "Scope, fees and terms in writing." },
+    { "step": "Onboarding", "duration": "4–6 weeks", "detail": "Introductory appointments at each person's convenience." },
+    { "step": "Annual review", "duration": "Yearly", "detail": "With the organisation, anonymised." }
+  ],
+  "fees": [
+    { "item": "Organisation programmes", "fee": "From £2,900", "note": "Per person, per year. Assessment, membership and travel medicine." },
+    { "item": "Minimum group", "fee": "Four people", "note": "Family members can be added on the same terms." }
+  ],
+  "faqs": [
+    { "q": "What does the organisation see?", "a": "Attendance and anonymised, aggregated themes, for example how many people were advised to look at their sleep. Never individual results, diagnoses or referrals." },
+    { "q": "Can family members be included?", "a": "Yes. Spouses, partners and children can join on the same terms, with their own confidential records." }
+  ]
+}

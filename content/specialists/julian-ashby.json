@@ -1,0 +1,33 @@
+{
+  "slug": "julian-ashby",
+  "order": 8,
+  "name": "Dr Julian Ashby",
+  "initials": "JA",
+  "role": "Consultant in Sport and Exercise Medicine",
+  "discipline": "Movement",
+  "tone": "sand",
+  "care": [
+    "specialist-consultations",
+    "health-assessments"
+  ],
+  "room": "Lower ground, the Studio",
+  "days": "Wed, Fri, Sat am",
+  "languages": [
+    "English",
+    "German"
+  ],
+  "focus": [
+    "Tendon and joint pain",
+    "Returning to running after injury",
+    "Strength and balance in later life",
+    "Exercise after illness or surgery"
+  ],
+  "quote": "Rest is rarely the whole answer. Most tendons get better with the right load, not none.",
+  "bio": [
+    "Julian works from the studio on the lower ground floor, which is more gym than consulting room. His patients range from marathon runners with an Achilles that won't settle to people in their seventies who want to keep carrying their own shopping up the stairs.",
+    "He is interested in strength as a long-term health measure, and in the unhurried business of building it back after an injury, an illness or a decade of sitting down."
+  ],
+  "background": "Sport and exercise medicine training, following earlier work in general and emergency medicine.",
+  "fictional": true,
+  "portrait": ""
+}

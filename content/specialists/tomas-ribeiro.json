@@ -1,0 +1,35 @@
+{
+  "slug": "tomas-ribeiro",
+  "order": 3,
+  "name": "Dr Tomás Ribeiro",
+  "initials": "TR",
+  "role": "Consultant Cardiologist",
+  "discipline": "Heart",
+  "tone": "clay",
+  "care": [
+    "specialist-consultations",
+    "diagnostics",
+    "health-assessments"
+  ],
+  "room": "Ground floor, Room 5",
+  "days": "Tue, Wed, Fri",
+  "languages": [
+    "English",
+    "Portuguese",
+    "Spanish"
+  ],
+  "focus": [
+    "Palpitations and heart rhythm",
+    "Blood pressure that resists treatment",
+    "Preventive cardiology and family history",
+    "Heart checks before returning to sport"
+  ],
+  "quote": "Most palpitations are harmless. The job is to find the few that aren't without making everyone else anxious.",
+  "bio": [
+    "Tomás sees people at two ends of the same question: those with symptoms that might be their heart, and those without symptoms who want to know their risk. He trained in cardiology with a particular interest in heart rhythm, and reports most of the echocardiograms and rhythm monitors done at Aurevia.",
+    "His consultations tend to end with fewer tests than patients expect. He explains what a finding means, what it doesn't, and what would change his mind, which is usually more reassuring than another scan."
+  ],
+  "background": "Cardiology training with a subspecialty interest in heart rhythm disorders. Reports Aurevia's cardiac diagnostics.",
+  "fictional": true,
+  "portrait": ""
+}

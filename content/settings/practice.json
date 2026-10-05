@@ -1,0 +1,45 @@
+{
+  "title": "A practice built around *the length of an appointment.*",
+  "intro": "Aurevia is a small medical practice in a Georgian house in Marylebone: physicians who look after people over years, consultants who work alongside them, and a team whose job is to make the whole thing feel unhurried.",
+  "hero_image": "lounge",
+  "hero_alt": "The first-floor waiting room: low sofas, a timber table and tall windows onto the garden",
+  "story": {
+    "headline": "Why it *exists.*",
+    "paragraphs": [
+      "Aurevia was set up by physicians who had spent their careers in hospitals and busy practices, and who kept noticing the same thing: most of what went wrong for patients was not a lack of technology. It was a lack of time in the room, and a lack of anyone holding the whole picture.",
+      "So the practice is arranged around those two problems. First appointments last an hour. Every patient has a named physician who reads every letter, and the specialists are in the same building, sharing one record and a lunch table. None of this is complicated. It is simply rarer than it should be."
+    ]
+  },
+  "principles": [
+    { "title": "Time before tests", "detail": "A proper history usually tells us more than a scan. We take the time first, then choose the tests that will actually change a decision." },
+    { "title": "One physician, one record", "detail": "Your physician is the person every specialist reports back to. You never have to be the messenger between your own doctors." },
+    { "title": "Fees before treatment", "detail": "Every fee is published, and anything beyond the published list is quoted in writing before it is arranged." },
+    { "title": "Plain English, in writing", "detail": "After any assessment or consultation you receive a letter that explains what we found and why we suggest what we do." }
+  ],
+  "not_doing": [
+    "Sell whole-body scans to people without symptoms",
+    "Run an emergency department. For emergencies, call 999",
+    "Offer cosmetic or aesthetic procedures",
+    "Share your records with an employer or insurer without your written consent",
+    "Pay or receive commission for referrals, supplements or products",
+    "Book anything before you have agreed the fee"
+  ],
+  "team": [
+    { "name": "Leila Moradi", "role": "Patient Coordinator", "note": "Usually the first voice you hear. Leila routes enquiries, books appointments and chases results so you don't have to." },
+    { "name": "Samuel Okoye", "role": "Patient Coordinator", "note": "Looks after members and organisation programmes, including travel-heavy calendars and Saturday clinics." },
+    { "name": "Hannah Pryce", "role": "Lead Nurse", "note": "Runs phlebotomy, ECGs and the assessment mornings, and knows exactly how to find a difficult vein." },
+    { "name": "Irene Kovač", "role": "Practice Manager", "note": "Responsible for the house, the rota and the standards behind them. Also the person to write to if something wasn't right." }
+  ],
+  "gallery": [
+    { "image": "reception", "alt": "A reception desk of fluted oak beside an olive tree in a pot", "caption": "Reception, ground floor" },
+    { "image": "open-window", "alt": "Sheer curtains drawn back from an open window, a small plant on the sill", "caption": "Consulting room 7" },
+    { "image": "window-table", "alt": "A long table under a pendant lamp before garden windows", "caption": "The garden room" },
+    { "image": "oak-slats", "alt": "A wall of vertical oak slats lit by a white pendant", "caption": "Second-floor landing" },
+    { "image": "travertine", "alt": "Close view of honed travertine tiles", "caption": "Travertine, ground-floor hall" },
+    { "image": "window-shadow", "alt": "Window light falling in a grid across a pale surface", "caption": "Late light, room 3" }
+  ],
+  "partners": {
+    "gp": "If you have an NHS GP, we recommend keeping them. With your permission, we send them a copy of every letter so both records stay complete, and we will say plainly when something is better continued on the NHS.",
+    "insurers": "Most UK private medical insurers recognise our consultants for specialist and diagnostic care. Call your insurer before your first appointment for an authorisation code; we will tell you exactly what to ask for, and bill them directly."
+  }
+}

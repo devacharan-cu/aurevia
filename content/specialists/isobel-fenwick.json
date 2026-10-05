@@ -1,0 +1,32 @@
+{
+  "slug": "isobel-fenwick",
+  "order": 5,
+  "name": "Dr Isobel Fenwick",
+  "initials": "IF",
+  "role": "Consultant Gynaecologist",
+  "discipline": "Women's health",
+  "tone": "clay",
+  "care": [
+    "womens-health",
+    "specialist-consultations"
+  ],
+  "room": "Second floor, Room 7",
+  "days": "Mon, Wed, Thu",
+  "languages": [
+    "English"
+  ],
+  "focus": [
+    "Perimenopause and menopause",
+    "Heavy and painful periods",
+    "Endometriosis",
+    "Pelvic ultrasound"
+  ],
+  "quote": "Perimenopause is often missed because it arrives while periods are still regular. I ask about sleep and mood before I ask about cycles.",
+  "bio": [
+    "Isobel leads the women's health service and gives every first appointment the full hour, because the history is where most gynaecological diagnoses are made. She performs pelvic ultrasound in clinic, so a question raised in the consultation can often be answered before you leave.",
+    "Much of her work is menopause care: explaining what is happening, discussing HRT honestly in light of each woman's own risks, and reviewing properly at three months rather than leaving a prescription to run."
+  ],
+  "background": "Obstetrics and gynaecology training, with a specialist interest in menopause and gynaecological ultrasound.",
+  "fictional": true,
+  "portrait": ""
+}

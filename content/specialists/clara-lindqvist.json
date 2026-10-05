@@ -1,0 +1,33 @@
+{
+  "slug": "clara-lindqvist",
+  "order": 7,
+  "name": "Dr Clara Lindqvist",
+  "initials": "CL",
+  "role": "Consultant Psychiatrist",
+  "discipline": "Mind and sleep",
+  "tone": "ink",
+  "care": [
+    "specialist-consultations",
+    "executive-health"
+  ],
+  "room": "Second floor, Room 8",
+  "days": "Mon, Tue, Thu, Fri",
+  "languages": [
+    "English",
+    "Swedish"
+  ],
+  "focus": [
+    "Insomnia, including CBT-I",
+    "Burnout and work-related stress",
+    "Anxiety and low mood",
+    "Adult ADHD assessment"
+  ],
+  "quote": "Insomnia is rarely solved by a sleeping tablet. It is usually solved by rebuilding what the bed is for.",
+  "bio": [
+    "Clara's patients are often high-functioning people for whom something has quietly stopped working: sleep first, then concentration, then patience. She is a psychiatrist who prefers to start with sleep, because it can be measured and because improving it tends to make everything else easier to address.",
+    "She offers cognitive behavioural therapy for insomnia, a structured, evidence-based programme usually completed over about six sessions, and works closely with Aurevia's physicians when medication is part of the picture."
+  ],
+  "background": "General adult psychiatry, with further training in sleep medicine and cognitive behavioural therapy for insomnia.",
+  "fictional": true,
+  "portrait": ""
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "diagnostics",
+  "order": 4,
+  "title": "Diagnostics",
+  "need": "I need a test or a scan, explained properly",
+  "summary": "Blood tests, ECGs, ultrasound, echocardiography and ambulatory monitoring on site, with every result reviewed and explained by a clinician, never sent as a page of numbers.",
+  "intro": "A test is only useful when someone explains what it means for you. Every investigation at Aurevia is requested by a clinician, and every result is reviewed by one before it reaches you. For MRI, CT and the imaging we don't do ourselves, we book appointments with partner centres and bring the report back into your record.",
+  "image": "ecg-trace",
+  "image_alt": "An ECG machine printing a heart trace onto paper",
+  "for_whom": [
+    "Patients of Aurevia physicians and specialists",
+    "Referrals from outside doctors who want tests done and reported quickly",
+    "Anyone who wants a result explained, not just delivered"
+  ],
+  "includes": [
+    { "title": "Blood tests", "detail": "Appointments from 07:45. Most routine results within 24 to 48 hours." },
+    { "title": "Heart tests", "detail": "Resting ECG, heart-rhythm monitoring from 24 hours to 7 days, 24-hour blood pressure and echocardiography." },
+    { "title": "Ultrasound", "detail": "Abdominal, pelvic, thyroid and musculoskeletal ultrasound, performed by sonographers and reported by consultants." },
+    { "title": "Imaging with partners", "detail": "MRI, CT and DEXA arranged nearby, usually within a week, with the report returned to your clinician." }
+  ],
+  "process": [
+    { "step": "Request", "duration": "From a clinician", "detail": "Yours or ours, so that someone is responsible for the result." },
+    { "step": "Test", "duration": "10–60 minutes", "detail": "Most on site, in a private room." },
+    { "step": "Review", "duration": "24–72 hours", "detail": "Read by the clinician who requested it." },
+    { "step": "Explanation", "duration": "Call or visit", "detail": "What it shows, what it doesn't, and what happens next." }
+  ],
+  "fees": [
+    { "item": "Blood panels", "fee": "From £95", "note": "Quoted before the sample is taken." },
+    { "item": "Echocardiogram", "fee": "£420", "note": "With consultant report." },
+    { "item": "Ultrasound, single region", "fee": "£290 – £380", "note": "With consultant report." }
+  ],
+  "faqs": [
+    { "q": "Can I book a test without seeing a doctor?", "a": "We ask that a clinician requests each test, so someone is responsible for interpreting it. If your own doctor has written a request, send it with your enquiry." },
+    { "q": "How will I receive my results?", "a": "Through the clinician who requested them: a call, a video appointment or a follow-up visit, with a written copy afterwards." }
+  ]
+}

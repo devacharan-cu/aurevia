@@ -1,0 +1,33 @@
+{
+  "slug": "mei-tanaka",
+  "order": 9,
+  "name": "Dr Mei Tanaka",
+  "initials": "MT",
+  "role": "Consultant Dermatologist",
+  "discipline": "Skin",
+  "tone": "sage",
+  "care": [
+    "specialist-consultations",
+    "diagnostics"
+  ],
+  "room": "Second floor, Room 9",
+  "days": "Tue, Wed",
+  "languages": [
+    "English",
+    "Japanese"
+  ],
+  "focus": [
+    "Mole checks and dermoscopy",
+    "Skin cancer surveillance",
+    "Eczema and psoriasis",
+    "Adult acne and rosacea"
+  ],
+  "quote": "Most people who come to me worried about a mole were right to have it checked, and most of the moles are fine. Both things are true.",
+  "bio": [
+    "Mei runs Aurevia's skin clinic, including full-body mole checks with dermoscopic photography, so that a mole can be compared precisely against its own image a year later rather than against memory.",
+    "She also sees inflammatory skin conditions that have lingered through several treatments. Her clinic is unhurried by design: a proper skin check takes time, and it is the part of the visit she is least willing to shorten."
+  ],
+  "background": "Dermatology training, with a specialist interest in dermoscopy and skin cancer surveillance.",
+  "fictional": true,
+  "portrait": ""
+}

@@ -1,0 +1,213 @@
+# Decap CMS configuration for Aurevia.
+#
+# Design principle: editors change words, images and data, never layout. Anything that
+# affects the visual system (plate tones, categories, ordering) is a constrained select or
+# number; long text fields carry length hints so headlines stay within their design.
+#
+# Headlines accept one piece of formatting: wrap words in *asterisks* for the italic accent.
+
+backend:
+  name: github                       # or git-gateway; see README "Content management"
+  repo: your-org/aurevia             # TODO: set to the real repository
+  branch: main
+  base_url: https://your-oauth-proxy.example   # TODO: OAuth proxy for GitHub on Cloudflare Pages
+
+# Uncomment to edit locally with `npx decap-server`:
+# local_backend: true
+
+publish_mode: editorial_workflow     # drafts → review → publish, so nothing goes live by accident
+site_url: https://aurevia.example
+display_url: https://aurevia.example
+logo_url: /favicon.svg
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  # ---------------------------------------------------------------- Journal
+  - name: journal
+    label: Journal
+    label_singular: Article
+    description: Articles by Aurevia clinicians. Keep claims general and evidence-based; every article carries an automatic "general information" notice.
+    folder: content/journal
+    extension: md
+    format: json-frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{category}} · {{date}}"
+    sortable_fields: [date, title, category]
+    fields:
+      - { name: title, label: Title, widget: string, hint: "Specific and plain. Aim for under 70 characters." , pattern: ['^.{10,90}$', 'Between 10 and 90 characters'] }
+      - { name: dek, label: Standfirst, widget: text, hint: "One or two sentences shown under the title and on cards. Under 220 characters.", pattern: ['^[\s\S]{20,240}$', 'Between 20 and 240 characters'] }
+      - name: category
+        label: Category
+        widget: select
+        options: [Prevention, Heart, "Women's health", Sleep, Healthy ageing, Travel, Gut, Practice notes]
+      - { name: author, label: Author, widget: relation, collection: specialists, search_fields: [name], value_field: slug, display_fields: [name] }
+      - { name: date, label: Publication date, widget: datetime, format: "YYYY-MM-DD", date_format: "D MMMM YYYY", time_format: false, picker_utc: true }
+      - { name: image, label: Image, widget: image, hint: "Landscape, at least 2200px wide. Natural light, no clinical stock imagery." }
+      - { name: image_alt, label: Image description (alt text), widget: string, hint: "Describe what is in the photograph for people who cannot see it." }
+      - { name: related_care, label: Related area of care, widget: relation, collection: care, search_fields: [title], value_field: slug, display_fields: [title], required: false }
+      - { name: featured, label: Feature at the top of the journal, widget: boolean, default: false }
+      - { name: body, label: Article, widget: markdown, buttons: [bold, italic, link, heading-two, bulleted-list, numbered-list, quote], editor_components: [], modes: [rich_text] }
+
+  # ---------------------------------------------------------------- Specialists
+  - name: specialists
+    label: Specialists
+    label_singular: Specialist
+    description: Clinician profiles. Only publish qualifications and registrations that have been verified.
+    folder: content/specialists
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    summary: "{{order}} · {{name}} — {{role}}"
+    fields:
+      - { name: slug, label: URL slug, widget: string, hint: "e.g. helena-marsh. Lowercase, hyphens only.", pattern: ['^[a-z0-9-]+$', 'Lowercase letters, numbers and hyphens'] }
+      - { name: order, label: Display order, widget: number, value_type: int, min: 1 }
+      - { name: name, label: Full name with title, widget: string }
+      - { name: initials, label: Initials for portrait plate, widget: string, pattern: ['^[A-Z]{2}$', 'Two capital letters'] }
+      - { name: role, label: Role, widget: string, hint: "e.g. Consultant Cardiologist" }
+      - name: discipline
+        label: Discipline (used for filtering)
+        widget: select
+        options: [Primary care, Heart, Hormones and metabolism, "Women's health", Gut, Mind and sleep, Movement, Skin]
+      - name: tone
+        label: Portrait plate colour
+        widget: select
+        options: [stone, sand, clay, sage, ink]
+        default: stone
+      - { name: portrait, label: Commissioned portrait (optional), widget: image, required: false, hint: "Portrait orientation. Replaces the typographic plate." }
+      - { name: care, label: Areas of care, widget: relation, collection: care, search_fields: [title], value_field: slug, display_fields: [title], multiple: true }
+      - { name: room, label: Consulting room, widget: string }
+      - { name: days, label: Consulting days, widget: string, hint: "e.g. Tue, Wed, Fri" }
+      - { name: languages, label: Languages, widget: list, allow_add: true }
+      - { name: focus, label: Areas of focus, widget: list, hint: "Three or four, each under 50 characters.", max: 5 }
+      - { name: quote, label: In their words, widget: text, hint: "One or two sentences, in the clinician's own voice." }
+      - { name: bio, label: Biography paragraphs, widget: list, field: { name: paragraph, label: Paragraph, widget: text }, max: 3 }
+      - { name: background, label: Background, widget: text }
+      - { name: fictional, label: Fictional demo profile, widget: boolean, default: true }
+
+  # ---------------------------------------------------------------- Care
+  - name: care
+    label: Areas of care
+    label_singular: Area of care
+    folder: content/care
+    extension: json
+    format: json
+    create: false          # new areas need a design review; editing existing ones is safe
+    delete: false
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{order}} · {{title}}"
+    fields:
+      - { name: slug, label: URL slug, widget: string }
+      - { name: order, label: Display order, widget: number, value_type: int, min: 1, max: 6 }
+      - { name: title, label: Title, widget: string }
+      - { name: need, label: "How a patient would describe it", widget: string, hint: "First person, under 60 characters. Shown on the homepage care browser." }
+      - { name: summary, label: Summary, widget: text, hint: "Under 220 characters." }
+      - { name: intro, label: Introduction, widget: text }
+      - { name: image, label: Image, widget: image }
+      - { name: image_alt, label: Image description, widget: string }
+      - { name: for_whom, label: Often chosen by, widget: list, max: 4 }
+      - { name: includes, label: "What's included", widget: list, max: 6, fields: [{ name: title, label: Title, widget: string }, { name: detail, label: Detail, widget: text }] }
+      - { name: process, label: How it runs, widget: list, max: 4, fields: [{ name: step, label: Step, widget: string }, { name: duration, label: Duration, widget: string }, { name: detail, label: Detail, widget: text }] }
+      - { name: fees, label: Fees, widget: list, fields: [{ name: item, label: Item, widget: string }, { name: fee, label: Fee, widget: string }, { name: note, label: Note, widget: string, required: false }] }
+      - { name: faqs, label: Questions, widget: list, fields: [{ name: q, label: Question, widget: string }, { name: a, label: Answer, widget: text }] }
+
+  # ---------------------------------------------------------------- Pages & settings
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Homepage
+        file: content/settings/home.json
+        fields:
+          - name: hero
+            label: Opening
+            widget: object
+            fields:
+              - { name: eyebrow, label: Small label, widget: string }
+              - { name: headline, label: Headline, widget: string, hint: "Under 60 characters. *Italic accent* allowed once." }
+              - { name: subline, label: Supporting line, widget: text, hint: "Under 200 characters." }
+              - { name: image, label: Image, widget: image }
+              - { name: image_alt, label: Image description, widget: string }
+              - { name: caption, label: Figure caption, widget: string }
+          - name: manifesto
+            label: Position
+            widget: object
+            fields:
+              - { name: statement, label: Statement, widget: text, hint: "Under 300 characters. *Italic accent* allowed." }
+              - { name: commitments, label: Commitments, widget: list, min: 4, max: 4, fields: [{ name: title, label: Title, widget: string, hint: "Two to four words. *Italic accent* allowed.", pattern: ['^.{2,24}$', '24 characters at most'] }, { name: detail, label: Detail, widget: string, hint: "Under 90 characters." }] }
+          - name: privacy
+            label: Discretion
+            widget: object
+            fields:
+              - { name: eyebrow, label: Label, widget: string }
+              - { name: headline, label: Headline, widget: string }
+              - { name: body, label: Text, widget: text }
+              - { name: image, label: Image, widget: image }
+              - { name: image_alt, label: Image description, widget: string }
+          - name: journey
+            label: Patient journey
+            widget: object
+            fields:
+              - { name: eyebrow, label: Label, widget: string }
+              - { name: headline, label: Headline, widget: string }
+              - { name: intro, label: Introduction, widget: text }
+              - { name: steps, label: Steps, widget: list, min: 3, max: 7, fields: [{ name: title, label: Title, widget: string }, { name: meta, label: Timing, widget: string }, { name: detail, label: Detail, widget: text }] }
+          - name: house
+            label: The house
+            widget: object
+            fields:
+              - { name: eyebrow, label: Label, widget: string }
+              - { name: headline, label: Headline, widget: string }
+              - { name: intro, label: Introduction, widget: text }
+              - { name: rooms, label: Rooms, widget: list, min: 3, max: 7, fields: [{ name: image, label: Image, widget: image }, { name: alt, label: Image description, widget: string }, { name: label, label: Location, widget: string }, { name: caption, label: Caption, widget: string }] }
+              - { name: end, label: Closing card, widget: object, fields: [{ name: text, label: Text, widget: text }, { name: link, label: Link label, widget: string }, { name: href, label: Link, widget: string }] }
+          - { name: faqs, label: Questions, widget: list, fields: [{ name: q, label: Question, widget: string }, { name: a, label: Answer, widget: text }] }
+          - name: closing
+            label: Closing invitation
+            widget: object
+            fields:
+              - { name: headline, label: Headline, widget: string }
+              - { name: body, label: Text, widget: text }
+              - { name: image, label: Doorway image, widget: image, required: false, hint: "Shown in an arch at the end of every page. Portrait; a lit doorway or window." }
+              - { name: caption, label: Image caption, widget: string, required: false }
+      - name: practice
+        label: The Practice
+        file: content/settings/practice.json
+        fields:
+          - { name: title, label: Headline, widget: string }
+          - { name: intro, label: Introduction, widget: text }
+          - { name: hero_image, label: Image, widget: image }
+          - { name: hero_alt, label: Image description, widget: string }
+          - { name: story, label: Story, widget: object, fields: [{ name: headline, label: Headline, widget: string }, { name: paragraphs, label: Paragraphs, widget: list, field: { name: p, label: Paragraph, widget: text } }] }
+          - { name: principles, label: Principles, widget: list, min: 4, max: 4, fields: [{ name: title, label: Title, widget: string }, { name: detail, label: Detail, widget: text }] }
+          - { name: not_doing, label: "What we don't do", widget: list, max: 8 }
+          - { name: team, label: First contact team, widget: list, fields: [{ name: name, label: Name, widget: string }, { name: role, label: Role, widget: string }, { name: note, label: Note, widget: text }] }
+          - { name: gallery, label: Gallery, widget: list, min: 6, max: 6, fields: [{ name: image, label: Image, widget: image }, { name: alt, label: Image description, widget: string }, { name: caption, label: Caption, widget: string }] }
+          - { name: partners, label: GP and insurers, widget: object, fields: [{ name: gp, label: With your GP, widget: text }, { name: insurers, label: With your insurer, widget: text }] }
+      - name: site
+        label: Site settings
+        file: content/settings/site.json
+        fields:
+          - { name: name, label: Short name, widget: string }
+          - { name: legal_name, label: Full name, widget: string }
+          - { name: url, label: Site URL, widget: string }
+          - { name: indexable, label: Allow search engines to index the site, widget: boolean, hint: "Keep off for the concept/demo deployment." }
+          - { name: concept_notice, label: Concept notice, widget: text }
+          - { name: address, label: Address, widget: object, fields: [{ name: line1, label: Street, widget: string }, { name: locality, label: Area, widget: string }, { name: city, label: City, widget: string }, { name: postcode, label: Postcode, widget: string }, { name: country, label: Country, widget: string }] }
+          - { name: phone, label: Phone (international format), widget: string }
+          - { name: phone_display, label: Phone (as displayed), widget: string }
+          - { name: email, label: Email, widget: string }
+          - { name: hours, label: Opening hours, widget: list, fields: [{ name: days, label: Days, widget: string, hint: "e.g. Monday – Friday" }, { name: time, label: Hours, widget: string, hint: "e.g. 08:00 – 19:00, or Closed" }] }
+          - { name: urgent_notice, label: Emergency notice, widget: text }
+          - { name: stations, label: Nearby stations, widget: list, fields: [{ name: name, label: Station, widget: string }, { name: walk, label: Walk, widget: string }] }
+          - { name: forms, label: Forms, widget: object, fields: [{ name: web3forms_access_key, label: Web3Forms access key, widget: string }, { name: subject_prefix, label: Email subject prefix, widget: string }] }
+          - { name: credit, label: Credit line, widget: string }

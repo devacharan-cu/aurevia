@@ -1,0 +1,33 @@
+{
+  "slug": "helena-marsh",
+  "order": 1,
+  "name": "Dr Helena Marsh",
+  "initials": "HM",
+  "role": "Physician and Clinical Lead",
+  "discipline": "Primary care",
+  "tone": "stone",
+  "care": [
+    "personal-physician",
+    "health-assessments"
+  ],
+  "room": "First floor, Room 2",
+  "days": "Mon, Tue, Thu, Fri",
+  "languages": [
+    "English",
+    "French"
+  ],
+  "focus": [
+    "Continuity of care for adults and families",
+    "Health assessments",
+    "Blood pressure and cholesterol",
+    "Coordinating care across specialists"
+  ],
+  "quote": "The most useful thing I can do in a first appointment is listen long enough to hear the second reason someone came.",
+  "bio": [
+    "Helena leads Aurevia's physicians and designed the way first appointments work here. She began in hospital medicine before moving into general practice, where she found she preferred knowing patients over years rather than admissions.",
+    "Her own list is mostly adults in middle life with several things going on at once: a borderline blood pressure, a family history, a job that makes sleep irregular. She is interested in the unglamorous work of prevention: measuring the basics properly, then deciding together what is worth acting on and what can safely be left alone."
+  ],
+  "background": "Hospital internal medicine, followed by more than a decade in general practice. Leads peer review and clinical standards at Aurevia.",
+  "fictional": true,
+  "portrait": ""
+}

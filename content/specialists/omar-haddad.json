@@ -1,0 +1,34 @@
+{
+  "slug": "omar-haddad",
+  "order": 2,
+  "name": "Dr Omar Haddad",
+  "initials": "OH",
+  "role": "Physician",
+  "discipline": "Primary care",
+  "tone": "sand",
+  "care": [
+    "personal-physician",
+    "executive-health"
+  ],
+  "room": "First floor, Room 3",
+  "days": "Mon, Tue, Wed, Sat am",
+  "languages": [
+    "English",
+    "Arabic",
+    "French"
+  ],
+  "focus": [
+    "Travel and expedition medicine",
+    "Executive health programmes",
+    "Men's health",
+    "Sleep disrupted by travel and shift work"
+  ],
+  "quote": "People who travel for work don't need a lecture about jet lag. They need a plan that survives a Tuesday in Singapore.",
+  "bio": [
+    "Omar looks after many of the members who live partly out of a suitcase. He trained in general practice and spent several years in remote and expedition medicine before settling in London.",
+    "He is practical by temperament: vaccination schedules planned around a year of travel, a doctor's letter for the medicines in a hand-luggage bag, a sensible approach to sleep across time zones. He runs the Saturday morning clinic, which is often the only time his patients are in the country."
+  ],
+  "background": "General practice, with a background in remote and expedition medicine. Leads Aurevia's travel medicine service.",
+  "fictional": true,
+  "portrait": ""
+}

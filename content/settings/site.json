@@ -1,0 +1,33 @@
+{
+  "name": "Aurevia",
+  "legal_name": "Aurevia Private Medical",
+  "url": "https://aurevia.example",
+  "indexable": false,
+  "concept_notice": "Aurevia is a fictional practice created as a design concept. It is not a registered healthcare provider and does not offer medical care. People, fees and addresses are illustrative.",
+  "address": {
+    "line1": "9 Aurelian Mews",
+    "locality": "Marylebone",
+    "city": "London",
+    "postcode": "W1G 8AZ",
+    "country": "United Kingdom"
+  },
+  "phone": "+44 20 7946 0321",
+  "phone_display": "020 7946 0321",
+  "email": "care@aurevia.example",
+  "hours": [
+    { "days": "Monday – Friday", "time": "08:00 – 19:00" },
+    { "days": "Saturday", "time": "09:00 – 13:00" },
+    { "days": "Sunday", "time": "Closed" }
+  ],
+  "urgent_notice": "Aurevia is not an emergency service. If you are seriously unwell, call 999. For urgent advice out of hours, call NHS 111.",
+  "stations": [
+    { "name": "Bond Street", "walk": "8 min walk" },
+    { "name": "Regent's Park", "walk": "6 min walk" },
+    { "name": "Baker Street", "walk": "11 min walk" }
+  ],
+  "forms": {
+    "web3forms_access_key": "YOUR_WEB3FORMS_ACCESS_KEY",
+    "subject_prefix": "Aurevia enquiry"
+  },
+  "credit": "Concept, identity and build — a portfolio project."
+}

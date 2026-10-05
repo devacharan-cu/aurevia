@@ -1,0 +1,37 @@
+{
+  "slug": "specialist-consultations",
+  "order": 3,
+  "title": "Specialist Consultations",
+  "need": "Something specific needs a specialist",
+  "summary": "Consultants in cardiology, gastroenterology, endocrinology, gynaecology, dermatology, psychiatry and sport medicine, under one roof and in the habit of talking to each other.",
+  "intro": "You can see an Aurevia specialist through your physician, through your own GP, or directly. Either way the consultant reads your history before you arrive, and their findings go back to whoever referred you. Because the specialists work in the same building, a second opinion from a colleague is often a conversation across a corridor.",
+  "image": "consult-hands",
+  "image_alt": "Hands in mid-explanation during a consultation, a wristwatch catching the window light",
+  "for_whom": [
+    "A symptom that has persisted, or keeps coming back",
+    "A diagnosis you would like explained again, or reviewed",
+    "Ongoing care of a condition by one consultant rather than a rota"
+  ],
+  "includes": [
+    { "title": "Forty-five minute first consultations", "detail": "Long enough to take a proper history and examine you, rather than spending the first appointment booking tests." },
+    { "title": "Tests on the same visit", "detail": "ECG, ultrasound, blood tests and skin imaging are done on site. Other investigations are arranged with partner imaging centres nearby." },
+    { "title": "A letter within three working days", "detail": "Sent to you and, with your consent, to your GP and insurer." },
+    { "title": "Joined-up opinions", "detail": "If two specialists need to be involved, they meet. You don't have to relay one opinion to the other." }
+  ],
+  "process": [
+    { "step": "Referral or self-referral", "duration": "Same day", "detail": "We check what your insurer needs, if you are using one." },
+    { "step": "Consultation", "duration": "45 minutes", "detail": "History, examination and a first explanation." },
+    { "step": "Investigations", "duration": "Often same visit", "detail": "Done on site where possible; reported by a consultant." },
+    { "step": "Follow-up", "duration": "20–30 minutes", "detail": "Results and plan, in person or by video." }
+  ],
+  "fees": [
+    { "item": "First consultation", "fee": "£280 – £350", "note": "Depending on specialty. 45 minutes." },
+    { "item": "Follow-up consultation", "fee": "£190 – £240", "note": "20 to 30 minutes." },
+    { "item": "Insured patients", "fee": "Billed directly", "note": "Where your insurer recognises the consultant." }
+  ],
+  "faqs": [
+    { "q": "Do I need a referral?", "a": "Not if you are paying yourself. Most insurers ask for a GP referral before authorising cover; your Aurevia physician can provide one if it is appropriate." },
+    { "q": "Can I ask for a second opinion on a diagnosis made elsewhere?", "a": "Yes. Send your letters and results in advance so the consultant has reviewed them before you meet." },
+    { "q": "Do you carry out procedures?", "a": "Minor procedures such as skin biopsies are done on site. Endoscopy and surgery take place at partner hospitals, by the same consultant wherever possible." }
+  ]
+}

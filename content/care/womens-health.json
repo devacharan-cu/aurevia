@@ -1,0 +1,37 @@
+{
+  "slug": "womens-health",
+  "order": 5,
+  "title": "Women's Health",
+  "need": "Hormones, cycles or menopause, with time to talk them through",
+  "summary": "Gynaecology and menopause care from consultants who give first appointments a full hour, from heavy periods and endometriosis to perimenopause and HRT.",
+  "intro": "Women's health problems are often common and rarely trivial: heavy or painful periods, perimenopausal symptoms that begin years before periods stop, questions before trying to conceive, or an ultrasound result that needs explaining. We see them in one place, with gynaecology, endocrinology and ultrasound working together.",
+  "image": "consult-listening",
+  "image_alt": "A woman in her fifties listening closely, seated by a bright window",
+  "for_whom": [
+    "Perimenopause and menopause, including decisions about HRT",
+    "Heavy, painful or irregular periods; suspected endometriosis or PCOS",
+    "Questions to settle before trying to conceive",
+    "Cervical screening and well-woman reviews"
+  ],
+  "includes": [
+    { "title": "Menopause clinic", "detail": "A full symptom review, bloods where they help, and an unhurried conversation about HRT and non-hormonal options." },
+    { "title": "Gynaecology consultations", "detail": "With pelvic ultrasound available the same day." },
+    { "title": "Cervical screening", "detail": "With the result explained by a clinician rather than a letter." },
+    { "title": "Pre-conception review", "detail": "Health, medicines, supplements and the tests worth considering before trying to conceive." }
+  ],
+  "process": [
+    { "step": "First consultation", "duration": "60 minutes", "detail": "History and examination, with a chaperone always offered." },
+    { "step": "Ultrasound or bloods", "duration": "Often same visit", "detail": "Reported by a consultant." },
+    { "step": "Written plan", "duration": "3 working days", "detail": "Options, reasoning and next steps." },
+    { "step": "Review", "duration": "At 3 months", "detail": "For any new treatment." }
+  ],
+  "fees": [
+    { "item": "Menopause consultation", "fee": "£350", "note": "60 minutes." },
+    { "item": "Gynaecology consultation", "fee": "£320", "note": "45 minutes." },
+    { "item": "Well-woman review", "fee": "£495", "note": "Includes cervical screening and bloods." }
+  ],
+  "faqs": [
+    { "q": "Do I need blood tests to diagnose perimenopause?", "a": "Usually not over the age of 45 with typical symptoms; the diagnosis comes from your history. Blood tests can help in younger women, or where the picture is unclear." },
+    { "q": "Will you prescribe HRT?", "a": "If it is right for you, yes, after talking through benefits, risks and alternatives in light of your own history. We then review how you are doing at three months." }
+  ]
+}

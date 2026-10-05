@@ -1,0 +1,147 @@
+{
+  "hero": {
+    "eyebrow": "Private medical practice · Marylebone",
+    "headline": "Private medicine, *without the feeling* of a hospital.",
+    "subline": "A small practice of physicians and consultants. First appointments last an hour, one named doctor holds your history, and the specialists down the corridor talk to each other.",
+    "image": "striped-chair",
+    "image_alt": "Late sunlight falling in soft bands across a linen armchair beside a window",
+    "caption": "The first-floor waiting room, 4.10 pm"
+  },
+  "manifesto": {
+    "statement": "Most private healthcare is sold on speed. We think the scarcer thing is *time*: enough of it in the room to understand what is actually going on, and enough continuity that you never have to tell your story twice.",
+    "commitments": [
+      {
+        "title": "An *hour*",
+        "detail": "for every first appointment with a physician, and longer when the problem needs it"
+      },
+      {
+        "title": "One *doctor*",
+        "detail": "who holds your whole history, and to whom every specialist reports back"
+      },
+      {
+        "title": "A plan *in writing*",
+        "detail": "within five working days of any assessment, in plain English"
+      },
+      {
+        "title": "Every *fee*, first",
+        "detail": "published for every service, and confirmed before anything is booked"
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Discretion",
+    "headline": "What you tell us *stays here.*",
+    "body": "Your records are held by Aurevia, not by an employer, an insurer or a marketing list. We share information only with your written consent or where the law requires it, and we tell you when we have. Organisations that fund programmes see anonymised themes, never results.",
+    "image": "leaf-shadow",
+    "image_alt": "Leaf shadows from a garden tree falling across a warm plaster wall"
+  },
+  "journey": {
+    "eyebrow": "After you get in touch",
+    "headline": "What actually *happens next.*",
+    "intro": "Contacting a new doctor shouldn't feel like joining a queue. This is the whole path, including the parts most practices leave out.",
+    "steps": [
+      {
+        "title": "You get in touch",
+        "meta": "Same working day",
+        "detail": "By phone, email or the enquiry form. A patient coordinator replies the same working day, by whichever method you prefer."
+      },
+      {
+        "title": "A short call with a coordinator",
+        "meta": "About 15 minutes",
+        "detail": "What's going on, how urgent it is, and which clinician fits. You hear the fee before anything is booked."
+      },
+      {
+        "title": "Your first appointment",
+        "meta": "45–60 minutes",
+        "detail": "An hour with a physician, or forty-five minutes with a specialist. Bloods can usually be taken at the same visit."
+      },
+      {
+        "title": "Tests, only if they're needed",
+        "meta": "Often the same day",
+        "detail": "On site where possible, with partner centres for MRI and CT. Each result is reviewed by the clinician who asked for it."
+      },
+      {
+        "title": "A plan, in writing",
+        "meta": "Within 5 working days",
+        "detail": "A letter in plain English: what we found, what we suggest, and why. Copied to your GP if you would like."
+      },
+      {
+        "title": "Continuity",
+        "meta": "Ongoing",
+        "detail": "The same physician next time, a direct line in between, and specialists who report back to a person rather than a system."
+      }
+    ]
+  },
+  "house": {
+    "eyebrow": "The practice",
+    "headline": "A Georgian house, *rebuilt quietly inside.*",
+    "intro": "A listed front door on Aurelian Mews; behind it, nine consulting rooms over four floors, a garden room and a studio. Appointments are spaced so the waiting room rarely holds more than two people.",
+    "rooms": [
+      {
+        "image": "reception",
+        "alt": "A reception desk of fluted oak beside an olive tree in a pot",
+        "caption": "Reception is a desk, not a counter. There is no queue to stand in.",
+        "label": "Ground floor"
+      },
+      {
+        "image": "lounge",
+        "alt": "A calm lounge with low sofas, a timber table and tall windows",
+        "caption": "The waiting room seats eight. It rarely holds more than two.",
+        "label": "First floor"
+      },
+      {
+        "image": "window-table",
+        "alt": "A long table under a pendant lamp before garden windows",
+        "caption": "The garden room, where assessment patients have breakfast between tests.",
+        "label": "Garden room"
+      },
+      {
+        "image": "oak-slats",
+        "alt": "A wall of vertical oak slats lit by a single white pendant",
+        "caption": "Consulting rooms in oak and limewash. Equipment stays out of sight until it's needed.",
+        "label": "Second floor"
+      },
+      {
+        "image": "open-window",
+        "alt": "Sheer curtains drawn back from an open window, a small plant on the sill",
+        "caption": "Every consulting room has a window that opens.",
+        "label": "Rooms 7 – 9"
+      }
+    ],
+    "end": {
+      "text": "Come and see it before you decide. Coordinators show people round on weekday afternoons.",
+      "link": "Arrange a visit",
+      "href": "/contact/"
+    }
+  },
+  "faqs": [
+    {
+      "q": "How quickly can I be seen?",
+      "a": "Most first appointments are within two to five working days, and Personal Physician members are seen within one working day. If something sounds urgent when you call, we will say so and tell you where to go."
+    },
+    {
+      "q": "Do you accept insurance?",
+      "a": "Yes, for specialist consultations and diagnostics with most UK private medical insurers, subject to your policy. Ask your insurer for an authorisation code before your appointment; we will tell you exactly what to ask for."
+    },
+    {
+      "q": "What will it cost?",
+      "a": "Fees are published for every service, and we confirm the fee for anything we arrange before it happens. We don't charge for routine letters to your GP, or for calling us with a question."
+    },
+    {
+      "q": "Can I see a specialist without a GP referral?",
+      "a": "Yes, if you are paying yourself. Insurers usually require a referral, which one of our physicians can provide where it is appropriate."
+    },
+    {
+      "q": "Do you see children?",
+      "a": "Our physicians see the children of members. Our specialists see adults only, and will recommend a paediatric colleague elsewhere when needed."
+    },
+    {
+      "q": "Is Aurevia an emergency service?",
+      "a": "No. If you are seriously unwell, call 999. For urgent advice out of hours, call NHS 111. Members can leave a message on the direct line, which is answered from 08:00."
+    }
+  ],
+  "closing": {
+    "headline": "Begin with a *conversation.*",
+    "body": "Tell us a little about what's going on. A coordinator will reply the same working day, and nothing is booked until you have decided."
+  }
+}
