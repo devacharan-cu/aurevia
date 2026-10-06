@@ -14,5 +14,5 @@
     "tailwindcss": "^4.1.0",
     "marked": "^15.0.0"
   },
-  "engines": { "node": ">=20" }
+  "engines": { "node": "22.x" }
 }
